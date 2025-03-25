@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* {<script src="https://cdn.lordicon.com/bhenfmcm.js"></script>} */
+.active_underline {
+    cursor: pointer;
+    position:relative;
+    
+}
+.active_underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: azure;
+    transition: width 0.3s;
+}
+.active_underline:hover::after {
+    width: 100%;
+}
+.react-autosuggest__container{
+    position: relative;
+    width: 100%;
+    /* border: 1px solid rgba(95, 132, 254, 0.8);
+    margin: 0 8px; */
+    
+}
+.react-autosuggest__container input{
+    width: 80%;
+    padding: 10px 50px 10px 20px;
+    margin: 0 8px;
+    background-color: rgb(224 231 255 / 0.8);
+    border-radius: 4px;
+    outline: none;
+    font-size: 1rem/* 16px */;
+    line-height: 1.5rem/* 24px */;
+    
+}
+
+.react-autosuggest__suggestions-container input:focus{
+  border-width: 2px;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.8);
+}
+.react-autosuggest__suggestions-container--open{
+    position: absolute;
+    width:100%;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 11px 0 rgb(0 0 0 / 20%);
+    
+    padding: 10px 20px;
+    /* bottom: -110px; */
+    margin: 0 8px;
+    border-radius: 6px;
+}
+.react-autosuggest__suggestions-container--open li{
+    list-style: none;
+    padding: 2px 3px;
+    margin: 2px 0;
+    
+}
+.react-autosuggest__suggestions-container--open li:hover{
+    --tw-bg-opacity: 1;
+    background-color: rgb(168, 183, 231);
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.destext {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
