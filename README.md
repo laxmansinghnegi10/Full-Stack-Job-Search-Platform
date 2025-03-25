@@ -1,14 +1,12 @@
-This App is Live and Running At the following
-
+=> This App is Live and Running At the following:
 https://job-bit.vercel.app
 
 don't forget to leave a star ! :)
 
-Authors
-
+=> Author:
 Laxman Singh Negi
 
-Features:
+=> Features:
 
 1-SignIn / SignUp
 
@@ -39,7 +37,7 @@ in local App )
 
 13-View or download Applicant CV's
 
-Tech Stack:
+=> Tech Stack:
 
 1-Nextjs
 
@@ -53,21 +51,23 @@ Tech Stack:
 
 6-Express.js
 
-Environment Variables:
+=> Environment Variables:
 
 To run this project, you will need to add the following environment variables to your .env file
 
 -provided on .env.example ###Make sure you replece with your ulrs
 
-Installation:
+=> Installation:
+
 Make you have yarn installed or npm
 
   yarn
-  npm run dev / yarn dev (for development server) 
   
-  npm run build / yarn build (for Production)
+1- npm run dev / yarn dev (for development server) 
   
-  npm run preview (To View Production Server )
+2-  npm run build / yarn build (for Production)
   
-🛠 Tools
+3-  npm run preview (To View Production Server )
+  
+=> 🛠 Tools:
 Next JS , Tailwind css , Redux toolkit (for state management), MongoDB,
