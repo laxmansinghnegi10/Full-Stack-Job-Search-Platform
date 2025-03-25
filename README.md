@@ -1,4 +1,4 @@
-This App is Live and Running At the following
+#This App is Live and Running At the following
 
 https://job-bit.vercel.app
 
@@ -59,12 +59,14 @@ To run this project, you will need to add the following environment variables to
 
 -provided on .env.example ###Make sure you replece with your ulrs
 
-Installation
+Installation:
 Make you have yarn installed or npm
 
   yarn
   npm run dev / yarn dev (for development server) 
+  
   npm run build / yarn build (for Production)
+  
   npm run preview (To View Production Server )
   
 🛠 Tools
